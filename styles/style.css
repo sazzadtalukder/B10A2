@@ -388,32 +388,7 @@ padding-bottom: 50px;
 
 }
 
-/* checking input  */
-/* .input1 {
-    grid-area: input1;
-}
-.input2 {
-    grid-area: input2;
-}
-.input3 {
-    grid-area: input3;
-}
-.select11 {
-    grid-area: select11;
-}
-.select22 {
-    grid-area: select22;
-}
-.grid-area{
-    display: grid;
-    gap: 10px;
-    grid-template-areas: 
-    "input1 input2" 
-    "input3 select11"
-    "select22 select22"
-    ;
-} */
-/* checking input end  */
+
 @media screen and (max-width:576px) {
 
     .nav , #hero , #change-ur-habit , #run-extra, #bmi-calculator , .footer-container  {
