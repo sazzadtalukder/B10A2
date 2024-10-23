@@ -1,0 +1,478 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/miama');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Inter;
+}
+
+header {
+    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 1) 100%);
+    /* background-color: black; */
+    
+}
+.title {
+    color: white;
+font-size: 3rem;
+font-weight: 900;
+}
+.description {
+    color: rgba(255, 255, 255, 0.5);
+font-size: 0.875rem;
+}
+.primary-btn{
+    padding: 16px 40px;
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+    color: white;
+    font-size: 1.125rem;
+    border: none;
+}
+.nav-container {
+    max-width: 1060px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+}
+.nav-ul {
+    display: flex;
+    gap: 10px;
+    padding: 8px 20px 8px 0px;
+    /* box-sizing: border-box; */
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 39px;
+
+}
+li {
+    list-style: none;
+}
+.nav-ul a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 1.125rem;
+}
+.nav-title {
+    color: rgb(230, 83, 60);
+font-size: 2.25rem;
+font-weight: 800;
+
+}
+.home {
+    border-radius: 2.875rem;
+
+background: rgb(230, 83, 60);
+padding: 8px 20px;
+}
+.hamburg {
+    color: green;
+    font-size: 2.25rem;
+    display: none;
+}
+
+#hero {
+    max-width: 1060px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+   gap: 4%;
+}
+#hero .hero-title{
+color: white;
+font-size: 4.875rem;
+font-weight: 900;
+
+}
+#hero .hero-description {
+color: rgba(255, 255, 255, 0.5);
+
+}
+.hero-btn {
+    padding: 16px 40px;
+    border-radius: 42px;
+    color: white;
+    font-size: 1.125rem;
+    box-sizing: border-box;
+    border: 1px solid rgb(255, 255, 255);
+    background: none;
+
+}
+.shape {
+    font-family: Miama;
+    font-weight: 400;
+                                                
+}
+.hero-content{
+    display: flex;
+    width: 48%;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}
+.hero-image {
+    position: relative;
+}
+.down-absolute{
+    position: absolute;
+    top: 450px;
+    left: -25px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
+
+border: 1px solid rgba(255, 255, 255, 0.1);
+border-radius: 12px;
+backdrop-filter: blur(10px);
+background: rgba(255, 255, 255, 0.1);
+}
+.up-absolute {
+    position: absolute;
+    top: 125px;
+    right:-30px;
+    padding: 10px;
+    
+
+border: 1px solid rgba(255, 255, 255, 0.1);
+border-radius: 12px;
+backdrop-filter: blur(20px);
+background: rgba(255, 255, 255, 0.1);
+}
+.up-title {
+    color: white;
+font-size: 2.5rem;
+font-weight: 900;
+
+}
+.down-title {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+.round-color{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: rgb(230, 83, 60);
+}
+.position-description {
+    color: rgba(255, 255, 255, 0.65);
+font-size: .875rem;
+
+}
+#change-ur-habit {
+   background: black;
+   padding: 50px 0px;
+}
+.change-container {
+    max-width: 1060px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+.card-img-container img{
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+.card {
+    text-align: center;
+    margin-top: 20px;
+    /* width: 150px; */
+}
+.card-title {
+    color: white;
+
+font-size: 1.125rem;
+font-weight: 600;
+
+}
+#run-extra{
+    padding: 50px 0px;
+    background-color: black;
+}
+.run-extra-container {
+    max-width: 1060px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 18px;
+    padding: 20px;
+    gap: 20px;
+
+background: rgb(34, 34, 34);
+}
+.run-content  {
+    width: 35%;
+}
+.run-content p{
+   margin: 20px 0px;
+}
+.run-image img {
+    width: 366px;
+    height: 312px;
+    border-radius: 18px;
+}
+#bmi {
+    background-color: black;
+    text-align: center;
+    padding: 50px 0px;
+}
+#bmi-calculator {
+     background: rgb(34, 34, 34);;
+}
+.bmi-calculator-container{
+    max-width: 1060px;
+    margin: 0 auto;
+    padding: 50px 0px;
+
+}
+table {
+    border-collapse: collapse;
+  }
+tr,td,th{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.875rem;
+    
+}
+th {
+    color: white;
+font-size: 1rem;
+font-weight: 500;
+
+}
+.bmi-calculator-title {
+    color: white;
+font-size: 1.75rem;
+font-weight: 900;
+padding-bottom: 20px;
+
+}
+
+.calculator-input {
+    /* padding: 12px 40px 12px 20px; */
+    padding: 10px;
+
+    color: rgba(255, 255, 255, 0.6);
+
+font-size: 1rem;
+border-radius: 8px;
+
+background: rgba(255, 255, 255, 0.1);
+border: none;
+margin-bottom: 10px;
+}
+.bmi-calculator-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.calculator-chart{
+    width: 310px;
+}
+.calculate-your-bmi{
+    width: 590px;
+}
+.calculate-your-bmi p {
+    margin: 25px 0px;
+}
+.bmi-calculator{
+    padding: 12px 20px;
+}
+/* .select1{
+    width: 43%
+}
+.select2{
+    width: 87%
+} */
+#meet-our-team{
+    background-color: black;
+}
+.meet-container{
+    text-align: center;
+    max-width: 1060px;
+    margin: 0 auto;
+    border-radius: 18px;
+    padding: 50px 0px;
+
+
+}
+.meet-container > p {
+    padding: 20px 0px;
+}
+.card {
+    position: relative;
+}
+.trainer-absolute {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    text-align: left;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+    gap: 10px;
+    border-radius: 18px;
+    padding: 10px;
+
+background: rgba(255, 255, 255, 0.1);
+}
+
+.grid-img img {
+    width: 320px;
+    height: 200px;
+}
+.trainer-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: white;
+}
+
+#footer {
+   background-color: rgb(34,34,34);
+   padding-top: 50px;
+}
+.footer-container {
+    max-width: 1060px;
+    margin: 0 auto; 
+    display: flex;
+    justify-content: space-between;
+}
+.footer-mid  a {
+text-decoration: none;
+color: rgba(255, 255, 255, 0.5);
+
+font-size: 1.5rem;
+display: inline-block;
+margin-bottom: 10px;
+}
+.footer-title {
+    color: white;
+font-size: 2rem;
+font-weight: 700;
+margin-bottom: 15px;
+}
+.footer-content {
+    width: 40%;
+}
+.footer-content p {
+    margin: 20px 0px;
+}
+hr {
+    max-width: 1060px;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    margin: 20px auto;
+    
+}
+footer > p {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+padding-bottom: 50px;
+
+}
+
+/* checking input  */
+.input1 {
+    grid-area: input1;
+}
+.input2 {
+    grid-area: input2;
+}
+.input3 {
+    grid-area: input3;
+}
+.select11 {
+    grid-area: select11;
+}
+.select22 {
+    grid-area: select22;
+}
+.grid-area{
+    display: grid;
+    gap: 10px;
+    grid-template-areas: 
+    "input1 input2" 
+    "input3 select11"
+    "select22 select22"
+    ;
+}
+/* checking input end  */
+@media screen and (max-width:576px) {
+
+    .nav , #hero , #change-ur-habit , #run-extra, #bmi-calculator , .footer-container  {
+        padding: 0px 10px;
+    }
+   
+    
+    #hero , .card-container ,.run-extra-container , .bmi-calculator-container , .footer-container{
+        flex-direction: column;
+        /* gap: 500px; */
+    }
+    #hero .hero-title {
+        font-size: 4rem;
+    }
+    .nav-ul {
+         display: none;
+    }
+    .hamburg {
+        display: block;
+    }
+    .hero-content , 
+    .run-content {
+        width: 100%;
+    }
+    .hero-btn-container {
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+    }
+    .up-absolute{
+        top:  50px;
+        right: 50px;
+    }
+    .down-absolute{
+      
+        top:  270px;
+        left: 15px;
+    }
+    .change-container {
+        text-align: center;
+    }
+    .calculate-your-bmi{
+        width: 400px;
+    }
+    
+    /* .calculator-input{
+        padding: 12px 4px;
+    } */
+    .select1{
+        width: 47%;
+    }
+    .select2{
+        width: 95%;
+    }
+    .grid-container {
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0px 10px;
+    }
+    .grid-img img {
+        width: 100%;
+    }
+    .footer-content {
+        width: 100%;
+    }
+}
